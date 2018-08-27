@@ -3,3 +3,6 @@
 #RewriteRule ^([a-zA-Z0-9\-\_\/]*)$ Webroot/$1
 #php_value default_charset utf-8
 #AddType 'text/html; charset=utf-8' .html .htm .shtml
+RewriteEngine On
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^ index.php [QSA,L]
