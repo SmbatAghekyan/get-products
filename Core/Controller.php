@@ -1,4 +1,5 @@
 <?php
+echo"<pre>"; print_r(32); echo "</pre>"; exit;
     class Controller
     {
         var $vars = [];
