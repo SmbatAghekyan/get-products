@@ -1,5 +1,5 @@
 RewriteEngine on
 RewriteCond %{REQUEST_URI} !\.(?:css|js|jpe?g|gif|png)$ [NC]
 #RewriteRule ^([a-zA-Z0-9\-\_\/]*)$ Webroot/$1
-php_value default_charset utf-8
-AddType 'text/html; charset=utf-8' .html .htm .shtml
+#php_value default_charset utf-8
+#AddType 'text/html; charset=utf-8' .html .htm .shtml
