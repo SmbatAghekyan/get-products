@@ -3,7 +3,6 @@
 
 define('WEBROOT', str_replace("index.php", "", $_SERVER["SCRIPT_NAME"]));
 define('ROOT', str_replace("index.php", "", $_SERVER["SCRIPT_FILENAME"]));
-echo"<pre>"; print_r(32); echo "</pre>"; exit;
 
 require(ROOT . 'Config/core.php');
 require(ROOT . 'router.php');
