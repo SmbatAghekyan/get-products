@@ -5,7 +5,7 @@ class getproductsController extends Controller
 	//search input
     function index()
     {
- 	                    echo"<pre>"; print_r($file); echo "</pre>"; exit;
+ 	                    echo"<pre>"; print_r(111); echo "</pre>"; exit;
 
         $this->render("index");
     }
