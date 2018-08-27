@@ -1,4 +1,5 @@
 <?php
+echo"<pre>"; print_r(11); echo "</pre>"; exit;
 
 class Database
 {
