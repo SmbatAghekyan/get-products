@@ -19,6 +19,8 @@ class Dispatcher
     {
         $name = $this->request->controller . "Controller";
         $file = ROOT . 'Controllers/' . $name . '.php';
+                    echo"<pre>"; print_r($_SERVER); echo "</pre>"; exit;
+
         require($file);
         $controller = new $name();
         return $controller;
